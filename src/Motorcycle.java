@@ -1,8 +1,8 @@
 class Motorcycle extends Vehicle {
     boolean hasSidecar;
 
-    Motorcycle(String brand, int year, boolean hasSidecar) {
-        super(brand, year);
+    Motorcycle(String make, String fuel, String colour, boolean hasSidecar) {
+        super(make, fuel, colour);
         this.hasSidecar = hasSidecar;
     }
 

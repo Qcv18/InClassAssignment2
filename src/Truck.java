@@ -1,14 +1,14 @@
 class Truck extends Vehicle {
-    int loadCapacity;
+    int bedSize;
 
-    Truck(String brand, int year, int loadCapacity) {
-        super(brand, year);
-        this.loadCapacity = loadCapacity;
+    Truck(String make, String fuel, String colour, int bedSize) {
+        super(make, fuel, colour);
+        this.bedSize = bedSize;
     }
 
     @Override
     void displayInfo() {
         super.displayInfo();
-        System.out.println("Load Capacity: " + loadCapacity + " kg");
+        System.out.println("Bed Size: " + bedSize);
     }
 }
