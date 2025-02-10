@@ -1,3 +1,5 @@
+System.out.println("GitHub edit successful!");
+
 public class TestVehicles {
     public static void main(String[] args) {
         Car car = new Car("Toyota", 2022, 4);
