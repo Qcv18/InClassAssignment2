@@ -1,0 +1,10 @@
+public class TestVehicles {
+    public static void main(String[] args) {
+        Car car = new Car("Toyota", 2022, 4);
+        Truck truck = new Truck("Ford", 2020, 5000);
+
+        car.displayInfo();
+        System.out.println();
+        truck.displayInfo();
+    }
+}
