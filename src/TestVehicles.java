@@ -6,7 +6,7 @@ public class TestVehicles {
         Truck truck = new Truck("Ford", 2020, 5000);
 
         car.displayInfo();
-        System.out.println();
+        System.out.println("Final test edit!");
         truck.displayInfo();
     }
 }
